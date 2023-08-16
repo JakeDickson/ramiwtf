@@ -1,0 +1,115 @@
+@forward "reset";
+@forward "variables";
+@forward "text-effects";
+
+.page-wrapper {
+  min-height: 100vh;
+  padding: var(--space-xs);
+  & > * + * {
+    margin-top: var(--space-s-m);
+  }
+}
+
+body {
+  font-size: var(--step-0);
+  background: url("/scifi2.jpg");
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(251, 255, 0);
+}
+
+header {
+  padding-block-start: var(--space-s-m);
+  text-align: center;
+  font-size: var(--step-2);
+}
+
+a {
+  font-weight: bold;
+  color: rgb(0, 128, 109);
+  &:hover {
+    color: rgb(13, 255, 0);
+  }
+}
+
+aside {
+  font-size: var(--step-0);
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-xs);
+  }
+  a {
+    font-weight: bold;
+    padding: var(--space-2xs);
+    color: navy;
+  }
+}
+
+main {
+  margin-inline: auto;
+  overflow: hidden;
+  max-width: 80ch;
+  padding: var(--space-s) var(--space-m);
+
+  img {
+    margin-inline: auto;
+  }
+}
+
+.flow > * + * {
+  margin-top: var(--space-xs-s);
+}
+
+.webring-container {
+  text-align: center;
+  max-width: min(40ch, 100%);
+  margin-inline: auto;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+picture {
+  display: block;
+  img {
+    margin-inline: auto;
+  }
+}
+
+audio {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.thanksText {
+  text-align: center;
+  font-size: var(--step-2);
+}
+
+.retro-frame {
+  margin-inline: auto;
+  border-top: 8px solid hsl(0, 0%, 70%);
+  border-left: 8px solid hsl(0, 0%, 70%);
+  border-right: 8px solid hsl(0, 0%, 42%);
+  border-bottom: 8px solid hsl(0, 0%, 42%);
+}
+.videoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.imagerow {
+  display: flex;
+}
+
+.imagecolumn {
+  flex: 50%;
+  padding: 0px;
+}

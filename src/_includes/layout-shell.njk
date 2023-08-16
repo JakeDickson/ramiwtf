@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% set cssFilename = global.cssFile() %}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta property="og:title" content="{{ metadata.title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="{{ metadata.description }}"/>
+    <meta property="og:url" content="{{ metadata.url }}{{ page.url }}"/>
+    <meta property="og:site_name" content="{{ metadata.title }}"/>
+    <meta property="og:locale" content="en_GB"/>
+    <meta name="generator" content="Eleventy"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script src="/main.js"></script>
+    <title>
+      {{ metadata.title }}
+    </title>
+    <link rel="preload" as="style" href="{{ cssFilename }}">
+    <link rel="stylesheet" type="text/css" href="{{ cssFilename }}">
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="wordart-wrap">
+        <h1 class="wordart">{{ title }}</h1>
+      </header>
+      <aside class="sidebar">
+        <nav class="main-nav">
+          <ul role="list" class="nav-list">
+            <li>
+              <a href="/">rami</a>
+            </li>
+            <li>
+              <a href="/gibbons">gibbons</a>
+            </li>
+            <li>
+              <a href="/driving">driving</a>
+            </li>
+            <li>
+              <a href="/birthday">birthday</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+        {% block content %}
+          {{ content | safe }}
+        {% endblock %}
+    </div>
+  </body>
+</html>

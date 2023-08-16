@@ -1,0 +1,13 @@
+{% extends "layout-shell.njk" %}
+{% block content %}
+      <main class="flow">
+{{content | safe }}
+      </main>
+
+      <audio autoplay id="xfilesloop" loop src="/xfiles.ogg"></audio>
+      <script>
+            var audio = document.getElementById("xfilesloop");
+            audio.volume = 0.6;
+      </script>
+
+{% endblock %}
