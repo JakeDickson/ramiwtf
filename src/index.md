@@ -16,7 +16,7 @@ mr rami is actually mr steve jobs undercover to steal british secrets
 </div>
 
 | Rami Jobs | Steve Jobs |
-| :--------: | :---------: |
+| :-------- | ---------: |
 | Comes from Syria | Comes from Syria|
 | Has a secret love for the UK | Has a secret love for America |
 | CEO of a tech company | CEO of a tech company |
