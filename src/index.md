@@ -15,6 +15,8 @@ mr rami is actually mr steve jobs undercover to steal british secrets
   </div>
 </div>
 
+---
+
 | Rami Jobs | Steve Jobs |
 | :-------- | ---------: |
 | Comes from Syria | Comes from Syria|
@@ -26,5 +28,5 @@ mr rami is actually mr steve jobs undercover to steal british secrets
 | Wedding ring on incorrect finger | Wedding ring on correct finger |
 | thankfully eats like a normal human being | Died cause he enjoyed eating only Apple products | 
 
-
+---
 as you can see, the evidence is <b> <i> overwhelmingly </i> </b> in favour of Steve "dying" from eating only fruits to becoming a new unicorn leader in the UK tech space.... would the world's smartest man in the America die from citrus???? I think not.
