@@ -17,7 +17,7 @@ mr rami is actually mr steve jobs undercover to steal british secrets
 
 ---
 
-| <div style="width: 50%"> Rami Jobs</div>   | <div style="width:50%"> Steve Jobs</div> |
+| <div style="width: 500px"> Rami Jobs</div>   | <div style="width:400px"> Steve Jobs</div> |
 | :--------: | :---------: |
 | Comes from Syria    | Comes from Syria      |
 | Has a secret love for the UK | Has a secret love for America       |
